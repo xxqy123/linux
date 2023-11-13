@@ -105,7 +105,7 @@ static struct usb_driver idevice_debug_ncm_driver = {
 	.suspend = usbnet_suspend,
 	.resume = usbnet_resume,
 	.reset_resume =	usbnet_resume,
-	.supports_autosuspend = 1,
+	.supports_autosuspend = 0,
 	.disable_hub_initiated_lpm = 1,
 };
 
